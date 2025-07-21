@@ -1,0 +1,100 @@
+*{
+    font-family:"Playfair Display", serif;
+}
+body{
+     background-color:#FFF8F2;
+     color:#333333;
+}
+.box1{
+    width: 350px;
+    height: 350px;
+    background-color: rgb(212, 227, 233); 
+    border: 2px solid black;
+    position:relative;
+    margin: 50px 350px;
+    box-shadow: 0 100px 200px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+.box2{
+    width: 250px;
+    height: 250px;
+    background-color: #B6C9A9 ;                   
+    border: 2px solid black;
+    position: absolute;
+    left:107px;
+    top: 248px;
+    box-shadow: 0 100px 200px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+.box3{ 
+    width: 337px;
+    height: 221px;
+    background-color: #DFAE5E ;           
+    border: 2px solid black;
+    position: absolute;
+    left: 372px;
+    top: 484px;
+    box-shadow: 0 100px 200px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+} 
+.box4{
+    width: 300px;
+    height: 373px;
+    background-color: #FFF8F2;
+    border: 2px solid black;
+    position: absolute;
+    left: 722px;
+    top: -450px;
+    position: relative;
+    box-shadow: 0 100px 200px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+.box5{
+    width: 300px;
+    height: 250px;
+    background-color: #D8A7B1;
+    border: 2px solid black;
+    position: absolute;
+    top: 390px;
+    right: -2px;
+    box-shadow:  0 100px 200px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+.box6{
+    width: 350px;
+    height: 400px;
+    background-color: #EBD9C6;
+    border: 2px solid black;
+    position: absolute;
+    right: -375px;
+    top: 50px;
+    box-shadow: 0 100px 200px rgba(19, 20, 19, 0.1);
+    transition: all 0.3s ease;
+
+}
+p{
+   text-align:center;
+}
+.box{
+    width: 105px;
+    height: 105px;
+}
+#pink{
+    background-color: #FADADD;
+}
+#lightblue{
+    background-color: rgb(202, 184, 184);
+}
+#burlywood{
+    background-color:#DFAE5E;
+}
+#parent1{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.box1:hover,.box2:hover,.box3:hover,.box4:hover,.box5:hover,.box6:hover{
+    transform: scale(1.03);
+    box-shadow:0 8px 20px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
